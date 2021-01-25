@@ -1,0 +1,7 @@
+int main()
+{
+	char	dest[11];
+	char	*src = "helloworld";
+	ft_strcpy(dest, src);
+	printf("%s", dest);
+}

@@ -1,0 +1,7 @@
+
+
+int main()
+{
+	ft_putstr("gyhunhguu123240");
+	return 0;
+}

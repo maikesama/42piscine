@@ -1,0 +1,7 @@
+int main ()
+{
+	char dest[14];
+	unsigned int t = ft_strlcpy(dest, "helloworld", 13);
+	printf("%d\n", t);
+	return 0;
+}

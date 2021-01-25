@@ -1,0 +1,5 @@
+int main()
+{
+	printf("%d", ft_str_is_alpha("@###\n"));
+	return 0;
+}

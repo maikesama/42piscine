@@ -1,0 +1,9 @@
+int main()
+{
+	int a = 9;
+	int b = 7;
+	ft_swap (&a, &b);
+	printf("a = %d\nb = %d", a, b);
+	return 0;
+
+}

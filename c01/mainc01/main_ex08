@@ -1,0 +1,11 @@
+int main()
+{
+	int tab[7] = {1,5,6,8,7,4,6};
+	int write_cicle = 0;
+	ft_sort_int_tab(tab, 7);
+	while (write_cicle < 7)
+	{
+		printf("%d\n", tab[write_cicle]);
+		write_cicle++;
+	}
+	return 0;

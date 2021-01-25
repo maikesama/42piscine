@@ -1,0 +1,9 @@
+int main()
+{
+	char dest[10];
+	char *src = "hello!!1";
+	unsigned int n = 10;
+	ft_strncpy(dest, src, n);
+	printf("%s", dest);
+	return 0;
+}

@@ -1,0 +1,5 @@
+int main()
+{
+	printf("%d", ft_str_is_numeric("190087"));
+	return 0;
+}

@@ -1,0 +1,6 @@
+int main()
+{
+	char	str[80] = "GYYY 87Y oPP /mm";
+	printf("%s", ft_strcapitalize(str));
+	return 0;
+}

@@ -1,0 +1,10 @@
+int main()
+{
+	int a = 42;
+	int b = 9;
+	int div;
+	int mod;
+	ft_div_mod(a, b, &div, &mod);
+	printf ("div = %d\nmod = %d", div, mod);
+	return 0;
+}

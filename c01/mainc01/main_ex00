@@ -1,0 +1,9 @@
+
+
+int main ()
+{
+	int n = 98899889;
+	ft_ft(&n);
+	printf(%d", n);
+	return 0;
+}

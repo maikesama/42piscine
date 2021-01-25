@@ -1,0 +1,6 @@
+int main()
+{
+	char t[90] = "gggggGGG";
+	printf ("%s", ft_strupcase(t));
+	return 0;
+}

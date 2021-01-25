@@ -1,0 +1,16 @@
+int main ()
+{
+	int n = 9;
+	int *nbr = &n,
+	**nbr1 = &nbr,
+	***nbr2 = &nbr1,
+	****nbr3 = &nbr2,
+	*****nbr4 = &nbr3,
+	******nbr5 = &nbr4,
+	*******nbr6 = &nbr5,
+	********nbr7 = &nbr6,
+	*********nbr8 = &nbr7;
+	ft_ultimate_ft(nbr8);
+	printf ("%d", n);
+	return 0;
+}
